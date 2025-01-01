@@ -10,9 +10,9 @@ To implement  SISO Shift Register using verilog and validating their functionali
 
 Quartus prime
 
-**THEORY:**
+**THEORY**
 
-**SISO shift Register:**
+**SISO shift Register**
 
 A Serial-In Serial-Out shift register is a sequential logic circuit that allows data to be shifted in and out one bit at a time in a serial manner. It consists of a cascade of flip-flops connected in series, forming a chain. The input data is applied to the first flip-flop in the chain, and as the clock pulses, the data propagates through the flip-flops, ultimately appearing at the output.
 
@@ -27,7 +27,7 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 
 
-**Procedure:**
+**Procedure**
 
 
 1.Initialize the shift register to a known state (e.g., all zeros).
@@ -41,7 +41,7 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 5.Repeat steps 2-4 for each bit you want to input and shift.
 
 
-**PROGRAM:**
+**PROGRAM**
 
 
 
@@ -56,13 +56,13 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 
 
-**RTL LOGIC FOR SISO Shift Register:**
+**RTL LOGIC FOR SISO Shift Register**
 
 
 ![image](https://github.com/user-attachments/assets/8055c543-8b31-4aec-8ac1-8092bba83d76)
 
 
-**TIMING DIGRAMS FOR SISO Shift Register:**
+**TIMING DIGRAMS FOR SISO Shift Register**
 
 
 
@@ -70,6 +70,6 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 
 
-**RESULTS:**
+**RESULTS**
 
 SISO Shift Register using verilog and validating their functionality using their functional tables has successful execution of the program.
