@@ -1,4 +1,6 @@
-# SERIAL-IN-SERIAL-OUT-SHIFTREGISTER
+### NAME : NATHER NABEEL S.A.C
+### REG NO : 24900919
+# SERIAL IN SERIAL OUT SHIFTREGISTER
 
 **AIM:**
 
@@ -8,9 +10,9 @@ To implement  SISO Shift Register using verilog and validating their functionali
 
 Quartus prime
 
-**THEORY**
+**THEORY:**
 
-**SISO shift Register**
+**SISO shift Register:**
 
 A Serial-In Serial-Out shift register is a sequential logic circuit that allows data to be shifted in and out one bit at a time in a serial manner. It consists of a cascade of flip-flops connected in series, forming a chain. The input data is applied to the first flip-flop in the chain, and as the clock pulses, the data propagates through the flip-flops, ultimately appearing at the output.
 
@@ -23,20 +25,51 @@ Figure 01 4 Bit SISO Register
 The synchronous nature of the flip-flops ensures that the shifting of data occurs in a coordinated manner. When the clock signal rises, the input data is sampled and stored in the first flip-flop. On subsequent clock pulses, the stored data propagates through the flip-flops, moving from one flip-flop to the next.
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
-**Procedure**
 
-/* write all the steps invloved */
 
-**PROGRAM**
+**Procedure:**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:
+1.Initialize the shift register to a known state (e.g., all zeros).
 
-*/
+2.Input a bit serially into the shift register.
 
-**RTL LOGIC FOR SISO Shift Register**
+3.Shift the contents of the register one position to the right (or left).
 
-**TIMING DIGRAMS FOR SISO Shift Register**
+4.Output the shifted bit from the last stage of the register.
 
-**RESULTS**
+5.Repeat steps 2-4 for each bit you want to input and shift.
+
+
+**PROGRAM:**
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/de026461-a42f-4ab5-b311-11d412c21c21)
+
+
+
+
+
+
+
+**RTL LOGIC FOR SISO Shift Register:**
+
+
+![image](https://github.com/user-attachments/assets/8055c543-8b31-4aec-8ac1-8092bba83d76)
+
+
+**TIMING DIGRAMS FOR SISO Shift Register:**
+
+
+
+![image](https://github.com/user-attachments/assets/0a401c60-1744-4423-b034-467fcfd72999)
+
+
+
+**RESULTS:**
+
+SISO Shift Register using verilog and validating their functionality using their functional tables has successful execution of the program.
